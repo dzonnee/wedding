@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javoxir & Maxfura to'ymarosimi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- HERO -->
+        <div class="hero">
+            <div class="sub">Biz sizni kutamiz</div>
+            <h1>Javoxir <span class="heart">❤</span> Maxfura</h1>
+            <div class="divider"></div>
+            <div class="date"><strong>06 iyul 2026</strong> · Madaniyat to'y va marosimlar zali</div>
+            <div class="timer-wrap" id="timer">
+                <div class="timer-item"><span class="num" id="days">00</span><span class="label">Kun</span></div>
+                <div class="timer-item"><span class="num" id="hours">00</span><span class="label">Soat</span></div>
+                <div class="timer-item"><span class="num" id="minutes">00</span><span class="label">Minut</span></div>
+                <div class="timer-item"><span class="num" id="seconds">00</span><span class="label">Sekund</span></div>
+            </div>
+        </div>
+
+        <!-- РАСПИСАНИЕ -->
+        <div class="block fade-in">
+            <h2>✨ Dastur kuni</h2>
+            <div class="schedule-item"><span class="schedule-time">14:00</span><span class="schedule-desc">Tadbir Kuyov navkar</span></div>
+            <div class="schedule-item"><span class="schedule-time">14:30</span><span class="schedule-desc">Birinchi ta'om</span></div>
+            <div class="schedule-item"><span class="schedule-time">15:00</span><span class="schedule-desc">Raqislar va ta'omlar</span></div>
+            <div class="schedule-item"><span class="schedule-time">16:00</span><span class="schedule-desc">Kelin tushti davom etadi 18:00</span></div>
+            <div class="location">
+                📍 <strong>Madaniyat marosimlar zali</strong><br>
+                <a href="https://maps.google.com/?q=Madaniyat+marosimlar+zali+O%60zbekiston" target="_blank">Kartani ochish</a>
+                &nbsp;|&nbsp; 🍃 <strong>Madaniyat</strong>
+            </div>
+        </div>
+
+        <!-- ДРЕСС-КОД -->
+        <div class="block fade-in">
+            <h2>👗 Dress code</h2>
+            <p>Choy, ko'k, qora — va sizning tabassumingiz. Assalomu alaykum! (Madaniyat marosimlar zali).</p>
+            <div class="dresscode">
+                <span><span class="color-dot" style="background:#f2e3d0;"></span> Choy</span>
+                <span><span class="color-dot" style="background:#1a73e8;"></span> Ko'k</span>
+                <span><span class="color-dot" style="background:#2d2a24;"></span> Qora</span>
+            </div>
+        </div>
+
+        <!-- RSVP -->
+        <div class="block fade-in">
+            <h2>💌 Ishtirokni tastiqlang</h2>
+            <p style="margin-bottom: 0.5rem; color:#5f4d3c;">Sizni kutib olishdan mamnun bo'lamiz. O'z tanlovingizni qoldiring.</p>
+            <form class="rsvp-form" id="rsvpForm">
+                <label>Ismingiz</label>
+                <input type="text" placeholder="Ism va sharifingiz" required>
+
+                <label>Email yoki raqamingiz</label>
+                <input type="text" placeholder="Biz bilan aloqa:">
+
+                <label>Mehmonlar soni</label>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4+</option>
+                </select>
+
+                <label>Sizning tanlovingiz?</label>
+                <select>
+                    <option>Palov</option>
+                    <option>Coca Cola</option>
+                    <option>Fanta</option>
+                    <option>Suv</option>
+                    <option>Choy</option>
+                </select>
+
+                <button type="submit" class="btn">Yuborish</button>
+            </form>
+            <div id="rsvpThanks" style="display:none; margin-top:1.2rem; color:#5f7a6b;">Rahmat! Siz bilan bog'lanamiz.</div>
+        </div>
+
+        <!-- Kontaktlar -->
+        <div class="block contact fade-in">
+            <h2 style="font-size:1.6rem;">📞 Tashkilotchi</h2>
+            <p>Javoxir · <a href="tel:+998950746964">+998 95 074 6964</a></p>
+            <p style="font-size:0.9rem; margin-top:0.5rem; color:#b7a18c;">Balki sizda takliflar yoki biz bilan bog'liq fikirlar bo'lsa yozing!</p>
+        </div>
+
+        <div class="footer-note">
+            Chuqur hurmat ila, Javoxir & Maxfura · 2026
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
